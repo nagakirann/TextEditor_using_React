@@ -1,0 +1,33 @@
+/* src/components/Texteditor/TextEditor.css */
+.text-editor-container {
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  .options-container,
+  .textarea-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .options-container {
+    max-width: 300px; /* Limit options container width */
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .add-text-button {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+  }
